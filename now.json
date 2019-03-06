@@ -3,5 +3,8 @@
   "alias": ["www.limeapartments.com"],
   "builds": [
     { "src": "index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/" }
   ]
 }
